@@ -1,0 +1,9 @@
+# All the information important to cataloging.
+"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/proto_feedstock/blob/main/feedstock/meta.yaml" # !!! MAKE SURE TO POINT TO THIS REPOS meta.yaml !!!
+tags:
+  - my-custom-tag
+  - zarr
+stores:
+  - id: "my-dataset"
+    name: "The cool small Proto Dataset"
+    url: "gs://leap-scratch/data-library/feedstocks/proto_feedstock/small.zarr"
