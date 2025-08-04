@@ -1,15 +1,21 @@
-title: "LEAP Data Library Prototype"
+title: "Caravan (Catchment Attributes and Meteorology for Large-sample Studies) - A global community dataset for large-sample hydrology"
 description: >
-  A prototype test for the LEAP Data Library refactor
+  Caravan is an open community dataset of meteorological forcing data, catchment attributes, and discharge data for catchments around the world. Additionally, Caravan provides code to derive meteorological forcing data and catchment attributes from the same data sources in the cloud, making it easy for anyone to extend Caravan to new catchments. The vision of Caravan is to provide the foundation for a truly global open source community resource that will grow over time. https://www.nature.com/articles/s41597-023-01975-w
 provenance:
   providers:
-    - name: "Julius"
-      description: "Just a guy testing some recipes. Nothing to see here."
+    - name: "Zendodo"
+      description: "https://zenodo.org/records/15529786"
+      version: "1.6"
       roles:
-        - producer
+        - distributor
         - licensor
-  license: "Just a Test"
+  license: "CC 4.0"
 maintainers:
-  - name: "Julius Busecke"
-    orcid: "0000-0001-8571-865X"
-    github: jbusecke
+  - name: "Raphael Hagen"
+    github: norlandrhagen
+  - name: "Kara D. Lamb"
+    github: "<ADD>"
+    orcid: "<optional:ADD>"
+  - name: "Samarth Agrawal"
+    github: "SammyAgrawal"
+    orcid: "<optional:ADD>"

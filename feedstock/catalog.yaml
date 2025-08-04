@@ -1,9 +1,28 @@
-# All the information important to cataloging.
-"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/proto_feedstock/blob/main/feedstock/meta.yaml" # !!! MAKE SURE TO POINT TO THIS REPOS meta.yaml !!!
+"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/Caravan/blob/main/feedstock/meta.yaml"
 tags:
-  - my-custom-tag
+  - hydrology
+  - meteorology
   - zarr
+
 stores:
-  - id: "my-dataset"
-    name: "The cool small Proto Dataset"
-    url: "gs://leap-scratch/data-library/feedstocks/proto_feedstock/small.zarr"
+  - id: "CPC"
+    name: "Caravan: CPC Global Unified Gauge-Based Analysis of Daily Precipitation data provided by the NOAA PSL."
+    url: "gs://caravan-multimet/v1.1/CPC/timeseries.zarr"
+  - id: "IMERG"
+    name: "Caravan: GPM IMERG Early Precipitation L3 Half Hourly 0.1"
+    url: "gs://caravan-multimet/v1.1/IMERG/timeseries.zarr"
+  - id: "CHIRPS"
+    name: "Caravan: CHIRPS: Rainfall Estimates from Rain Gauge and Satellite Observations"
+    url: "gs://caravan-multimet/v1.1/CHIRPS/timeseries.zarr"
+  - id: "ERA5_LAND"
+    name: "Caravan: ERA5-Land hourly data"
+    url: "gs://caravan-multimet/v1.1/ERA5_LAND/timeseries.zarr"
+  - id: "CHIRPS_GEFS"
+    name: "Caravan: HRES forecast from IFS by ECMWF"
+    url: "gs://caravan-multimet/v1.1/CHIRPS_GEFS/timeseries.zarr"
+  - id: "HRES"
+    name: "Caravan: HRES forecast from IFS by ECMWF"
+    url: "gs://caravan-multimet/v1.1/HRES/timeseries.zarr"
+  - id: "GRAPHCAST"
+    name: "Caravan: GraphCast"
+    url: "gs://caravan-multimet/v1.1/GRAPHCAST/timeseries.zarr"
