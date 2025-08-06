@@ -1,28 +1,12 @@
 "ncviewjs:meta_yaml_url": "https://github.com/leap-stc/Caravan/blob/main/feedstock/meta.yaml"
 tags:
   - hydrology
-  - meteorology
+  - rainfall-runoff modeling
+  - streamflow
   - zarr
 
+
 stores:
-  - id: "CPC"
-    name: "Caravan: CPC Global Unified Gauge-Based Analysis of Daily Precipitation data provided by the NOAA PSL."
-    url: "gs://caravan-multimet/v1.1/CPC/timeseries.zarr"
-  - id: "IMERG"
-    name: "Caravan: GPM IMERG Early Precipitation L3 Half Hourly 0.1"
-    url: "gs://caravan-multimet/v1.1/IMERG/timeseries.zarr"
-  - id: "CHIRPS"
-    name: "Caravan: CHIRPS: Rainfall Estimates from Rain Gauge and Satellite Observations"
-    url: "gs://caravan-multimet/v1.1/CHIRPS/timeseries.zarr"
-  - id: "ERA5_LAND"
-    name: "Caravan: ERA5-Land hourly data"
-    url: "gs://caravan-multimet/v1.1/ERA5_LAND/timeseries.zarr"
-  - id: "CHIRPS_GEFS"
-    name: "Caravan: HRES forecast from IFS by ECMWF"
-    url: "gs://caravan-multimet/v1.1/CHIRPS_GEFS/timeseries.zarr"
-  - id: "HRES"
-    name: "Caravan: HRES forecast from IFS by ECMWF"
-    url: "gs://caravan-multimet/v1.1/HRES/timeseries.zarr"
-  - id: "GRAPHCAST"
-    name: "Caravan: GraphCast"
-    url: "gs://caravan-multimet/v1.1/GRAPHCAST/timeseries.zarr"
+  - id: "Caravan - Version 1.6"
+    name: "Caravan - A global community dataset for large-sample hydrology"
+    url: "https://nyu1.osn.mghpcc.org/leap-pangeo-pipeline/Caravan/Caravan.zarr"
